@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
  
-public class Test {
+public class DbConn {
     public static void main(String[] args) throws SQLException {
         String driver="org.mariadb.jdbc.Driver";
         String dbUrl="jdbc:mysql://localhost:3306/board";
